@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding-top: 160px;
+  display: flex;
 }
 
 html {
@@ -8,23 +10,27 @@ html {
 
 /*fixed bar w logo and login info*/
 #bar {
-  background-color: #fff5d5;
+  background-color: #619ec4;
   overflow: hidden;
   position: fixed;
-  height: 60px;
+  height: 80px;
   width: 100%;
   top: 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 #bar div.content {
-  margin: 18px auto 0 auto;
+  margin: 25px auto 0 auto;
 }
 
 #bar div.facelook {
   display: inline-block;
-  font-size: 20px;
+  font-size: 27px;
   margin-left: 15px;
   font-weight: bold;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #bar div.login {
@@ -50,4 +56,26 @@ html {
 
 #bar input[type="submit"] {
   box-shadow: 2px 2px black;
+}
+
+
+/*left part of the site w details*/
+#left-side {
+  flex: 1.3;
+  border: 1px solid black;
+}
+
+#left-side div.details {
+  margin: 30px;
+}
+
+#left-side ul {
+  font-size: 12px;
+  line-height: 300%;
+  color:  #7b7d7d;
+}
+
+#right-side {
+  flex: 1;
+  border: 1px solid black;
 }
