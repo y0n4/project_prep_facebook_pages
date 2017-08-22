@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding-top: 160px;
+  padding-top: 100px;
   display: flex;
 }
 
@@ -16,7 +16,6 @@ html {
   height: 80px;
   width: 100%;
   top: 0;
-  border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
 
@@ -40,7 +39,7 @@ html {
 }
 
 #bar input {
-  border: 1px solid black;
+  border: 2px solid black;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 22px;
@@ -66,7 +65,7 @@ html {
 }
 
 #left-side div.details {
-  margin: 30px;
+  margin: 70px 40px;
 }
 
 #left-side ul {
@@ -78,4 +77,8 @@ html {
 #right-side {
   flex: 1;
   border: 1px solid black;
+}
+
+#right-side input[type="text"] {
+  display: inline-block;
 }
