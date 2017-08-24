@@ -20,19 +20,21 @@ html {
 }
 
 #bar div.content {
-  margin: 25px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 #bar div.facelook {
   display: inline-block;
-  font-size: 27px;
-  margin-left: 15px;
+  margin: 12px 0 0 15px;
+  font-size: 40px;
   font-weight: bold;
+  font-family: 'Baloo Bhaijaan', cursive;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #bar div.login {
+  margin: 26px 15px 0 0;
   display: inline-block;
   float: right;
   margin-right: 10px;
@@ -43,6 +45,8 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 22px;
+  font-size: 11px;
+  padding-left: 5px;
 }
 
 #bar input[type="email"] {
@@ -68,7 +72,7 @@ html {
 }
 
 #left-side ul {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 300%;
   color:  #7b7d7d;
 }
@@ -91,7 +95,8 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 22px;
-  padding-left: 4px;
+  padding-left: 5px;
+  font-size: 11px;
 }
 
 #right-side input[type="text"] {
@@ -108,11 +113,19 @@ html {
 
 #right-side input[type="radio"] {
   display: inline-block;
-  border: 1px solid;
-  background: black;
+  transform: scale(.8);
+}
+
+#right-side label {
+  font-size: 12px;
+}
+
+#right-side b {
+  font-size: 13px;
 }
 
 #right-side select {
+  font-size: 11px;
   border: 1px solid black;
   box-shadow: none;
   background: transparent;
