@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding-top: 40px;
+}
+
+/*fixed bar w logo, search bar, and user tools*/
+#bar {
+  background-color: #619ec4;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 40px;
+  border-bottom: 2px solid black;
+}
+#bar div.content {
+  max-width: 700px;
+  margin: auto;
+}
+
+#bar div.facelook {
+  display: inline-block;
+  margin: 5px 0 0 10px;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: 'Baloo Bhaijaan', cursive;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#bar form {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#bar input[type=text] {
+  width: 150%;
+  border: 2px solid #7b7d7d;
+  border-radius: none;
+  background-color: white;
+  padding-left: 5px;
+}
+
+#bar div.user-tools {
+  display: inline-block;
+  float: right;
+  margin: 5px 10px 0 0;
+}
+
+#bar div.profile-icon {
+  width: 25px;
+  height: 25px;
+  background-color: #fff5f5;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#bar div.settings-icon {
+  width: 25px;
+  height: 25px;
+  background-image: url("http://www.iconsfind.com/wp-content/uploads/2015/11/20151112_5643f32e478ae.png");
+  background-size: cover;
+  display: inline-block;
+}
