@@ -51,7 +51,7 @@ body {
 #bar div.profile-icon {
   width: 25px;
   height: 25px;
-  background-color: #fff5f5;
+  background-color: white;
   border: 1px solid black;
   display: inline-block;
 }
@@ -88,13 +88,14 @@ body {
   margin: 225px 0 0 15px;
   display: inline-block;
   position: static;
+  float: left;
   background-color: white;
 }
 
 #top-content .profile-name {
   display: inline-block;
   margin: 270px 0 0 10px;
-  position: absolute;
+  float: left;
   font-size: 18px;
   font-weight: bold;
 }
@@ -120,6 +121,16 @@ body {
 
 #top-content .profile-button:nth-child(2) {
   background-color: #eeeeee;
+}
+
+#top-content .profile-button a:link {
+  color: black;
+  text-decoration: none;
+}
+
+#top-content .profile-button a:visited {
+  color: black;
+  text-decoration: none;
 }
 
 #top-content .edit-link {
