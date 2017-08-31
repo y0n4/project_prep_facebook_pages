@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding-top: 40px;
+  font-size: 12px;
+  font-family: verdana;
+  display: flex;
+}
+
+/*fixed bar w logo, search bar, and user tools*/
+#bar {
+  background-color: #619ec4;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 40px;
+  border-bottom: 2px solid black;
+}
+#bar div.content {
+  max-width: 700px;
+  margin: auto;
+}
+
+#bar div.facelook {
+  display: inline-block;
+  margin: 5px 0 0 10px;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: 'Baloo Bhaijaan', cursive;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#bar form {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#bar input[type=text] {
+  width: 150%;
+  border: 2px solid #7b7d7d;
+  border-radius: none;
+  background-color: white;
+  padding-left: 5px;
+}
+
+#bar div.user-tools {
+  display: inline-block;
+  float: right;
+  margin: 5px 10px 0 0;
+}
+
+#bar div.profile-icon {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#bar div.settings-icon {
+  width: 25px;
+  height: 25px;
+  background-image: url("http://www.iconsfind.com/wp-content/uploads/2015/11/20151112_5643f32e478ae.png");
+  background-size: cover;
+  display: inline-block;
+}
+
+#left-side {
+  padding-top: 60px;
+  margin-left: 60px;
+  flex: 1;
+  border-right: 1px solid black;
+  display: inline-block;
+}
+
+/*the user profile part on the left*/
+#left-side .profile-pic {
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+}
+
+#left-side .user-info {
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+}
+
+/*the friends history part on the left*/
+#left-side .friends {
+  margin-top: 90px;
+}
+
+#left-side .friend-info {
+  margin: 10px 0;
+}
+
+#left-side .see-more {
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+/*right side*/
+#right-side {
+  flex: 3;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+/*post form*/
+#right-side {
+  padding-top: 60px;
+}
+
+#right-side .current-status {
+  border: 1px solid black;
+  height: 150px;
+  width: 70%;
+  margin: auto;
+}
+
+#right-side .post-title {
+  text-align: center;
+  border-bottom: 1px solid black;
+  height: 20px;
+  padding-top: 5px;
+  background-color: #eee;
+  font-weight: bold;
+}
+
+#right-side textarea {
+  border: 1px solid black;
+  margin: 10px;
+  width: 95%;
+}
+
+#right-side .post-action {
+  border-top: 1px solid black;
+  background-color: #eee;
+  height: 35px;
+}
+
+#right-side input[type="submit"] {
+  border: 1px solid black;
+  float: right;
+  color: white;
+  background-color: #619ec4;
+  box-shadow: 2px 2px black;
+  margin: 5px 10px;
+}
+
+/*first post is left as is*/
+#right-side .post-1 {
+  border: 1px solid black;
+  height: 175px;
+  width: 70%;
+  margin: 20px auto;
+  padding: 10px 0;
+}
+
+#right-side summary{
+  text-align: justify;
+  margin: 10px;
+}
+
+#right-side .action  {
+  border-top: 1px solid black;
+  height: 30px;
+  background-color: #eee;
+  padding: 5px 0 0 10px;
+}
+
+/*second post has a like*/
+#right-side .post-2 {
+  border: 1px solid black;
+  height: 200px;
+  width: 70%;
+  margin: 20px auto;
+  padding: 10px 0;
+}
+
+#right-side .simple-action {
+  border-top: 1px solid black;
+  height: 55px;
+  background-color: #eee;
+  padding: 5px 0 0 10px;
+}
+
+.pal-pic {
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.pal-activity {
+  display: inline-block;
+  color: #7b7d7d;
+}
+
+/*third post has a like and couple of comments*/
+#right-side .post-3 {
+  border: 1px solid black;
+  height: 495px;
+  width: 70%;
+  margin: 20px auto;
+  padding: 10px 0;
+}
+
+#right-side .interacted-action {
+  border-top: 1px solid black;
+  height: 350px;
+  background-color: #eee;
+  padding: 5px 10px 0 10px;
+}
+
+#right-side .unlike {
+  float: left;
+  display: inline-block;
+}
+
+#right-side .delete {
+  float: right;
+  display: inline-block;
+}
+
+#right-side .comment-pic {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+  background-color: white;
+}
+
+#right-side .comment {
+  width: 85%;
+  display: inline-block;
+  text-align: justify;
+  margin-left: 10px;
+}
