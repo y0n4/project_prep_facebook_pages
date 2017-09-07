@@ -1,0 +1,46 @@
+@import 'fixedbar';
+
+#top-content .profile-button:nth-child(2) {
+  background-color: #eeeeee;
+}
+
+#about-content {
+  height: 400px;
+  border: 1px solid black;
+  margin-top: 20px;
+
+  .title {
+    border-bottom: 1px solid black;
+    height: 31px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    background-color: #eeeeee;
+    font-weight: bold;
+  }
+
+  .edit-button {
+    float: right;
+    display: inline-block;
+  }
+
+  .left-side {
+    line-height: 20px;
+    width: 250px;
+    margin: 30px 0 0 35px;
+    display: inline-block;
+  }
+
+  .right-side {
+    width: 350px;
+    float: right;
+    margin: 30px 35px 0 0;
+    display: inline-block;
+    text-align: justify;
+  }
+
+  .topic {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

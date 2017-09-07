@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding-top: 40px;
+  font-size: 12px;
+  font-family: verdana;
+}
+
+#bar {
+  background-color: #619ec4;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 40px;
+  border-bottom: 2px solid black;
+
+  div.content {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  div.facelook {
+    display: inline-block;
+    margin: 5px 0 0 10px;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Baloo Bhaijaan', cursive;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  form {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  input[type=text] {
+    width: 150%;
+    border: 2px solid #7b7d7d;
+    border-radius: none;
+    background-color: white;
+    padding-left: 5px;
+  }
+
+  div.user-tools {
+    display: inline-block;
+    float: right;
+    margin: 5px 10px 0 0;
+  }
+
+  div.profile-icon {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+  }
+
+  div.settings-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url("http://www.iconsfind.com/wp-content/uploads/2015/11/20151112_5643f32e478ae.png");
+    background-size: cover;
+    display: inline-block;
+  }
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+}
+
+#top-content {
+  border: 1px solid black;
+
+  .cover-page {
+    height: 300px;
+    border-bottom: 1px solid black;
+    background-color: #fff5d5;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 225px 0 0 15px;
+    display: inline-block;
+    position: static;
+    float: left;
+    background-color: white;
+  }
+
+  .profile-name {
+    display: inline-block;
+    margin: 270px 0 0 10px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .menu-button  {
+    height: 35px;
+    padding-left: 130px;
+  }
+
+  .profile-button {
+    display: inline-block;
+    float: left;
+    border-right: 1px solid black;
+    width: 70px;
+    text-align: center;
+    padding-top: 11px;
+    height: 24px;
+  }
+
+  .profile-button:first-child {
+    border-left: 1px solid black;
+  }
+
+  .profile-button a:link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .profile-button a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+  .edit-link {
+    display: inline-block;
+    float: right;
+    margin: 12px 5px 0 0;
+    color: #4b9ebc;
+  }
+}
